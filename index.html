@@ -1,9 +1,152 @@
-<!DOCTYPE html>
+<!doctype html>
 <html>
 <head>
-	<title>逗逗的主页</title>
+<meta charset="utf-8" />
+<meta http-equiv="X-UA-Compatible" content="IE-edge,chrome=1">
+<!--//意思是用IE的最高版本浏览网页，以防低版本IE不支持部分css3属性-->
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<!--意思是使网页的宽度强制适应不同服务窗口的宽度（宽度自适），且用户不能够随意缩放网页-->
+<!-- TemplateBeginEditable name="doctitle" -->
+<title>爱情时光机</title>
+<!-- TemplateEndEditable -->
+<link rel="stylesheet" href="CSS/animate.min.css" />
+<link rel="stylesheet" href="CSS/reset.css" media="screen" type="text/css" />
+<link rel="stylesheet" href="CSS/style.css" media="screen" type="text/css" />
+<!-- TemplateBeginEditable name="head" -->
+<!-- TemplateEndEditable -->
 </head>
+
 <body>
-	<div>这是逗逗的主页</div>
+<!--页面-->
+<div class="page_head"></div>
+
+<div class="page_body">
+<div class="page_main" id="page_main_id">
+	<div class="page_demo" id="page_1">
+    	<div class="page_1_bg"></div>
+        <div class="animated fadeOutUp page_down_1"></div>
+        <h1 class="page_deme_text_1">空间与时间的机缘巧合</br>你我相遇然后相爱</br>跟时光老人请个假吧</br>让我们重新回到相爱的那一刻...</h1>
+    </div>
+    
+    <div class="page_demo" id="page_2">
+    	<div class="page_2_bg1"></div>
+        <div class="page_2_bg2"></div>
+        <div class="animated fadeOutUp page_down_2"></div>
+        <h1 class="page_deme_text_2_1">&nbsp;Fall&nbsp;in&nbsp;love</h1>
+        <h2 class="page_deme_text_2_2">2015年4月24日</h2>
+        <h3 class="page_deme_text_2_3">和煦的风吹过，爱让你我冲动！</br>我们拥有了专属于你我的日子。</h3>
+        <div class="page_2_img1"></div>
+        <div class="page_2_img2"></div>
+    </div>
+    
+    <div class="page_demo" id="page_3">
+    	<div class="page_3_bg1"></div>
+        <div class="page_3_bg2"></div>
+        <div class="animated fadeOutUp page_down_3"></div>
+        <h1 class="page_deme_text_3_1">&nbsp;爱情历程</h1>
+        <h2 class="page_deme_text_3_2">茫茫世界中，</br>我们用真心感受着彼此的爱，</br>这些照片记录了我们的点点滴滴，</br>喜欢看你傻傻的笑容。</h2>
+        <div class="photo">
+        	<div class="photo_1_border">
+            	<div class="photo_1"></div>
+            </div>
+            <div class="photo_2_border">
+            	<div class="photo_2"></div>
+            </div>
+            <div class="photo_3_border">
+            	<div class="photo_3"></div>
+            </div>
+            <div class="photo_4_border">
+            	<div class="photo_4"></div>
+            </div>
+            <div class="photo_5_border">
+            	<div class="photo_5"></div>
+            </div>
+        </div>
+    </div>
+    
+    <div class="page_demo" id="page_4">
+    	<div class="page_4_bg"></div>
+        <div class="animated fadeOutUp page_down_4"></div>
+        <h1 class="page_deme_text_4_1">&nbsp;影音记录</h1>
+        <h2 class="page_deme_text_4_2">在这些日子里，</br>我们有过欢笑，有过争吵，</br>但最终我们都选择了彼此。</h2>
+        <div class="video_player">
+            <div class="video_player_1">
+                <video id="video_player_1" src="video/meipai_20150625163757.mp4" poster="../video/QQ截图20160104192720.png" preload="meta" width="300px" height="300px"></video>
+            </div>
+            <div class="video_player_2">
+                <video id="video_player_2" src="video/meipai_20150625163809.mp4" poster="../video/QQ截图20160104192752.png" preload="meta" width="300px" height="300px"></video>
+            </div>
+            <div class="video_player_3">
+                <video id="video_player_3" src="video/meipai_20150625163716.mp4" poster="../video/QQ截图20160104192456.png" preload="meta" width="300px" height="300px"></video>
+            </div>
+        </div>
+    </div>
+    
+    <div class="page_demo" id="page_5">
+    	<div class="page_5_bg1"></div>
+    	<div class="page_5_bg2"></div>
+        <h1 class="page_deme_text_5_1">最大的幸福就是将幸福分享...</br>把爱握在手心，让幸福一直延续...</h1>
+    </div>
+</div>
+
+</div>
+
+<!--音乐-->
+<div class="music">
+<!--音乐图标-->
+  <div class="animated rotate360deg music-icon"></div>
+<!--音乐控制界面-->
+  <div class="music-player">
+  	<div style="background-image: url(images/82fLDu4.jpg);" class="album"></div>
+    <div class="info">
+        <div class="left">
+          <a href="javascript:;" class="icon-shuffle"></a>
+          <a href="javascript:;" class="icon-heart"></a>
+        </div>
+        <div class="center">
+            <div class="jp-playlist">
+              <ul>
+                <li></li>
+              </ul>
+            </div>
+        </div>
+        <div class="right">
+          <a href="javascript:;" class="icon-repeat"></a>
+          <a href="javascript:;" class="icon-share"></a>
+        </div>
+
+        <div class="progress jp-seek-bar">
+          <span class="jp-play-bar" style="width: 0%"></span>
+        </div>
+    </div>
+
+    <div class="controls">
+        <div class="current jp-current-time">00:00</div>
+        <div class="play-controls">
+          <a href="javascript:;" class="icon-previous jp-previous" title="previous"></a>
+          <a href="javascript:;" class="icon-play jp-play" title="play"></a>
+          <a href="javascript:;" class="icon-pause jp-pause" title="pause"></a>
+          <a href="javascript:;" class="icon-next jp-next" title="next"></a>
+        </div>
+        <div class="volume-level jp-volume-bar">
+          <span class="jp-volume-bar-value" style="width: 0%"></span>
+          <a href="javascript:;" class="icon-volume-up jp-volume-max" title="max volume"></a>
+          <a href="javascript:;" class="icon-volume-down jp-mute" title="mute"></a>
+        </div>
+    </div>
+    <div id="jquery_jplayer" class="jp-jplayer"></div>
+	</div>
+  <script src="jQuery/jquery-2.1.4.min.js"></script>
+  <script src="jQuery/jplayer.playlist.min.js"></script>
+  <script src="jQuery/jquery.jplayer.min.js"></script>
+  <script src="jQuery/jquery.transit.js"></script>
+  <script src="jQuery/CuPlayer.js"></script>
+  <script src="jQuery/jquery-style.js"></script>
+  <script src="jQuery/videoplayer.js"></script>
+<!--效果html结束-->
+</div>
+
+
+
 </body>
 </html>
